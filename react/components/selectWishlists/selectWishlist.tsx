@@ -24,6 +24,7 @@ const CSS_HANDLES = [
 ] as const
 
 const SelectWishlist = (props: SelectWishList) => {
+  console.log(`%c SelectWishlist`, 'color: DarkTurquoise', {props})
   const { handles } = useCssHandles(CSS_HANDLES)
 
   return (

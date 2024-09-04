@@ -138,7 +138,7 @@ const useSelectWishlist = () => {
         existingWishlist.products.push(selectedProduct)
 
         const urlPut =
-          '/api/dataentities/whitebird_my_wishlists_wishlist/documents?_schema=0.0.2-mywishlists'
+          '/api/dataentities/myWishlists/documents?_schema=0.0.4-mywishlists'
 
         axios
           .put(urlPut, existingWishlist)
